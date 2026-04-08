@@ -22,16 +22,16 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      description: "(713) 919-7313",
-      href: "tel:+17139197313",
+      description: "(945) 396-9291",
+      href: "tel:+19453969291",
       color: "text-pink-600",
       bgColor: "bg-pink-100"
     },
     {
       icon: Mail,
       title: "Email",
-      description: "BoumaUSA@aol.com",
-      href: "mailto:BoumaUSA@aol.com",
+      description: "info@boumaholdings.com",
+      href: "mailto:info@boumaholdings.com",
       color: "text-blue-600",
       bgColor: "bg-blue-100"
     }
@@ -82,7 +82,7 @@ export default function Contact() {
                   className={`${item.bgColor} rounded-xl p-4 hover:shadow-md transition-all duration-300 group`}
                 >
                   <div className="flex items-start gap-3">
-                    <div className={`w-10 h-10 rounded-lg ${item.bgColor} flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform`}>
+                    <div className={`w-10 h-10 rounded-lg ${item.bgColor} flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform`}>
                       <IconComponent className={`w-5 h-5 ${item.color}`} />
                     </div>
                     <div className="flex-1 min-w-0">
@@ -194,7 +194,7 @@ export default function Contact() {
               </motion.button>
 
               <p className="text-xs text-gray-500 text-center font-medium">
-                We’ll respond within 24 hours
+                We'll respond within 24 hours
               </p>
             </form>
           </motion.div>
@@ -205,17 +205,17 @@ export default function Contact() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-16 bg-linear-to-r from-orange-500/10 to-purple-600/10 rounded-xl border border-orange-200/30 p-8 text-center"
+          className="mt-16 bg-gradient-to-r from-orange-500/10 to-purple-600/10 rounded-xl border border-orange-200/30 p-8 text-center"
         >
           <p className="text-gray-700 font-medium mb-4">
             Prefer a quick conversation?
           </p>
           <a
-            href="tel:+17139197313"
-            className="inline-flex items-center gap-2 bg-linear-to-r from-orange-500 to-orange-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:shadow-lg transition-all hover:scale-105"
+            href="tel:+19453969291"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:shadow-lg transition-all hover:scale-105"
           >
             <Phone className="w-4 h-4" />
-            (713) 919-7313
+            (945) 396-9291
           </a>
         </motion.div>
       </div>

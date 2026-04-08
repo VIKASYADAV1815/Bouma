@@ -55,7 +55,7 @@ export default function ContactPage() {
                 <Phone className="w-6 h-6" />
               </div>
               <h3 className="font-bold text-gray-900 mb-1">Phone Number</h3>
-              <p className="text-sm text-gray-500">713-919-7313</p>
+              <p className="text-sm text-gray-500">945-396-9291</p>
             </div>
 
             <div className="bg-white p-8 rounded-3xl border border-gray-300 border-dashed shadow-sm flex flex-col items-center text-center">
@@ -63,7 +63,7 @@ export default function ContactPage() {
                 <Mail className="w-6 h-6" />
               </div>
               <h3 className="font-bold text-gray-900 mb-1">Email Us</h3>
-              <p className="text-sm text-gray-500 break-all">BoumaUSA@aol.com</p>
+              <p className="text-sm text-gray-500 break-all">info@boumaholdings.com</p>
             </div>
 
             <div className="bg-white p-8 rounded-3xl border border-gray-300 border-dashed shadow-sm flex flex-col items-center text-center">

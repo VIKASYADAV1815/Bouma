@@ -34,7 +34,7 @@ export default function MockupCarousel() {
           <div className="w-3 h-3 rounded-full bg-amber-400 shadow-sm" />
           <div className="w-3 h-3 rounded-full bg-green-400 shadow-sm" />
           <div className="mx-auto flex-1 max-w-md bg-white rounded-md h-6 border border-gray-200 flex items-center px-3 justify-center shadow-sm">
-            <span className="text-[10px] text-gray-400 font-medium tracking-wide">bouma-usa.com</span>
+            <span className="text-[10px] text-gray-400 font-medium tracking-wide">boumaholdings.com</span>
           </div>
           <div className="w-16" /> {/* Spacer to balance dots */}
         </div>

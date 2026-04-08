@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "postbuild": "node -e \"const fs=require('fs'),p=require('path');const s=p.resolve('.','.htaccess');const d=p.resolve('.','out','.htaccess');if(fs.existsSync(s)&&fs.existsSync('out')){fs.copyFileSync(s,d);console.log('Copied .htaccess to ./out');}else{console.log('Skipped .htaccess copy (missing source or out)');}\"",
     "lint": "eslint"
   },
   "dependencies": {
